@@ -1,6 +1,16 @@
 ---
-import Layout from '../layouts/Layout.astro'
+import Tool from "@/components/Tool.astro"
+import Layout from "../layouts/Layout.astro"
 ---
 
 <Layout title="Home">
+	<div>Filters - Css - Textures</div>
+	<div class="grid grid-cols-3 gap-1">
+		<Tool data={{ title: 'Web capture', description: 'Record media from the browser', url: 'https://web-capture.online/', isPrivileged: false,isRecommended: true }} />
+		<Tool data={{ title: 'Web capture', description: 'Record media from the browser', url: 'https://web-capture.online/', isPrivileged: false,isRecommended: false }} />
+		<Tool data={{ title: 'Web capture', description: 'Record media from the browser', url: 'https://web-capture.online/', isPrivileged: false,isRecommended: false }} />
+		<Tool data={{ title: 'Web capture', description: 'Record media from the browser', url: 'https://web-capture.online/', isPrivileged: false,isRecommended: false }} />
+		<Tool data={{ title: 'Web capture', description: 'Record media from the browser', url: 'https://web-capture.online/', isPrivileged: false,isRecommended: false }} />
+		<Tool data={{ title: 'Web capture', description: 'Record media from the browser', url: 'https://web-capture.online/', isPrivileged: false,isRecommended: false }} />
+	</div>
 </Layout>
