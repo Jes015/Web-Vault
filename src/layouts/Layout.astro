@@ -1,9 +1,9 @@
 ---
+import Header from '@/components/Header.astro'
 import "@fontsource/geist-sans/400.css"
 import "@fontsource/geist-sans/500.css"
 import "@fontsource/geist-sans/600.css"
 import "@fontsource/geist-sans/700.css"
-import { ArchiveIcon } from "@radix-ui/react-icons"
 
 interface Props {
 	title: string;
@@ -22,14 +22,10 @@ const { title } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body class="grid place-items-center">
+	<body class="grid place-items-center text-sm">
 		<div class="border rounded-md w-1/2 mt-10">
-			<header class="border-b p-1 flex gap-1 items-center">
-				<ArchiveIcon className="text-zinc-800" width={25} height={25} />
-				<h1 class="font-medium text-lg leading-3 select-none">Web Vault</h1>
-			</header>
+			<Header />
 			<main>
-				asdfsdf
 				<slot />
 			</main>
 		</div>
