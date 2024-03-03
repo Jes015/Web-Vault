@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Web capture",
+        "description": "Record media from the browser",
+        "isRecommended": true,
+        "isPrivileged": true,
+        "url": "https://www.web-capture.online/",
+        "filters": ["React"]
+    },
+    {
+        "title": "Web capture",
+        "description": "Record media from the browser",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://www.web-capture.online/",
+        "filters": ["React", "Typescript"]
+    },
+    {
+        "title": "Blog",
+        "description": "Record media from the browser",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://www.web-capture.online/",
+        "filters": ["Astro", "Typescript"]
+    }
+]
