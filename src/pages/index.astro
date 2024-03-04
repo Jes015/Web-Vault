@@ -1,5 +1,5 @@
 ---
-import Tool from "@/components/Tool.astro"
+import { Tools } from "@/components/Tools"
 import { colors, filters } from "@/models"
 import { MagnifyingGlassIcon } from "@radix-ui/react-icons"
 import Layout from "../layouts/Layout.astro"
@@ -43,11 +43,11 @@ import Layout from "../layouts/Layout.astro"
 							placeholder="Search filters"
 						/>
 					</label>
-					<div class="p-1">
+					<div class="flex flex-wrap items-stretch p-1 gap-1">
 						{
 							filters.map((filter) => (
 								<span
-									class="rounded-md font-medium select-none cursor-pointer text-[0.7rem] p-1 mr-1 mt-1"
+									class="rounded-md font-medium select-none cursor-pointer text-[0.7rem] p-1"
 									style={`background-color:${colors[filter.color].bg};color:${colors[filter.color].text};`}
 								>
 									{filter.name}
@@ -59,33 +59,8 @@ import Layout from "../layouts/Layout.astro"
 				</div>
 			</div>
 		</header>
-		<div class="mt-1 grid grid-cols-3 gap-1">
-			<Tool
-				data={{
-					title: "Web capture",
-					description: "Record media from the browser",
-					url: "https://web-capture.online/",
-					isPrivileged: false,
-					isRecommended: true,
-					filters: ['React']
-				}}
-			/>
-			{
-				Array(42)
-					.fill(null)
-					.map(() => (
-						<Tool
-							data={{
-								title: "Web capture",
-								description: "Record media from the browser",
-								url: "https://web-capture.online/",
-								isPrivileged: false,
-								isRecommended: false,
-								filters: ['React']
-							}}
-						/>
-					))
-			}
+		<div class="mt-1 grid grid-cols-3 gap-1 min-h-72 items-stretch">
+			<Tools />
 		</div>
 	</div>
 </Layout>

@@ -5,22 +5,431 @@
         "isRecommended": true,
         "isPrivileged": true,
         "url": "https://www.web-capture.online/",
+        "filters": ["Recording"]
+    },
+    {
+        "title": "Get deploying",
+        "description": "Find and Compare hosting services",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://getdeploying.com/",
+        "filters": ["Front Hosting", "Back Hosting", "Info"]
+    },
+    {
+        "title": "Svgl app",
+        "description": "Tech icons",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://svgl.app/",
+        "filters": ["Icons"]
+    },
+    {
+        "title": "Warp",
+        "description": "Beautiful terminal reimagined with AI",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://www.warp.dev/",
+        "filters": ["Terminal"]
+    },
+    {
+        "title": "Svg omg",
+        "description": "Optimize svg",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://jakearchibald.github.io/svgomg/",
+        "filters": ["Icons"]
+    },
+    {
+        "title": "Nnnoise",
+        "description": "Genre textures with svg",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://fffuel.co/nnnoise/",
+        "filters": ["Textures", "Icons"]
+    },
+    {
+        "title": "Tailwind animations",
+        "description": "Animation plugin for tailwind",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://tailwindcss-animations.vercel.app/",
+        "filters": ["Tailwind"]
+    },
+    {
+        "title": "Pico css",
+        "description": "Minimal CSS framework for semantic HTML",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://picocss.com/",
+        "filters": ["Css Frameworks"]
+    },
+    {
+        "title": "Bolt css",
+        "description": "Basic styles for HTML Elements",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://boltcss.com/",
+        "filters": ["Css Frameworks"]
+    },
+    {
+        "title": "Resend",
+        "description": "Email for developers",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://resend.com/",
+        "filters": ["Message services"]
+    },
+    {
+        "title": "Twilio",
+        "description": "Emails, phone calls, text messages, whatsapp messages and more",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.twilio.com/",
+        "filters": ["Message services"]
+    },
+    {
+        "title": "Sendgrid",
+        "description": "Get your emails to the inbox—where they belong.",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://sendgrid.com/",
+        "filters": ["Message services"]
+    },
+    {
+        "title": "Ascii theater",
+        "description": "Watch movies from your terminal",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "isDangerous": true,
+        "url": "https://ascii.theater/",
+        "filters": ["Terminal"]
+    },
+    {
+        "title": "Devjobsscanner",
+        "description": "Job directory with web scrapping",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://www.devjobsscanner.com/",
+        "filters": ["Jobs"]
+    },
+    {
+        "title": "Icons for github",
+        "description": "Beautiful icons for the github web site",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://chromewebstore.google.com/detail/material-icons-for-github/bggfcpfjbdkhfhfmkjpbhnkhnpjjeomc",
+        "filters": ["Chrome extensions"]
+    },
+    {
+        "title": "Formkit dad",
+        "description": "A tiny data-first library for modern apps",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://drag-and-drop.formkit.com/",
+        "filters": ["React", "Javascript", "Drag and drop"]
+    },
+    {
+        "title": "Bg.ibelick",
+        "description": "Collection of modern, background snippets with tailwind",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://bg.ibelick.com/",
+        "filters": ["Tailwind", "Textures"]
+    },
+    {
+        "title": "Loadership",
+        "description": "CSS-only loader configurators",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.loadership.com/",
+        "filters": ["Css", "Loaders"]
+    },
+    {
+        "title": "Getonbrd",
+        "description": "Easily find and apply to exclusive jobs in awesome startups and tech companies",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.getonbrd.com/",
+        "filters": ["Jobs"]
+    },
+    {
+        "title": "Prosmarketplace",
+        "description": "Remote Work Latin America",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://prosmarketplace.com/",
+        "filters": ["Jobs"]
+    },
+    {
+        "title": "Infojobs",
+        "description": "Find work",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.infojobs.net/",
+        "filters": ["Jobs"]
+    },
+    {
+        "title": "Indeed",
+        "description": "Find work",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://indeed.com/",
+        "filters": ["Jobs"]
+    },
+    {
+        "title": "V-fonts",
+        "description": "A simple resource for finding and trying variable fonts",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://v-fonts.com/licenses/open-source",
+        "filters": ["Fonts"]
+    },
+    {
+        "title": "Shots",
+        "description": "Create amazing mockups",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://shots.so/",
+        "filters": ["Mockups"]
+    },
+    {
+        "title": "Emscripten",
+        "description": "Compiler toolchain to WebAssembly, using LLVM, with a special focus on speed, size, and the Web platform",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://emscripten.org/",
+        "filters": ["Wasm"]
+    },
+    {
+        "title": "Ffmpegwasm",
+        "description": "pure WebAssembly / JavaScript port of FFmpeg enabling video & audio record, convert and stream right inside browsers",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://github.com/ffmpegwasm/ffmpeg.wasm",
+        "filters": ["Wasm"]
+    },
+    {
+        "title": "Better-commits",
+        "description": "A CLI for creating better commits following the conventional commits specification",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://github.com/Everduin94/better-commits",
+        "filters": ["Cli", "Terminal", "Git"]
+    },
+    {
+        "title": "Lite-youtube-embed",
+        "description": "A faster youtube iframe/embed.",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://github.com/paulirish/lite-youtube-embed",
+        "filters": ["Web components"]
+    },
+    {
+        "title": "Goodfirstissue",
+        "description": "Make your first contribution to open-source",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://goodfirstissue.dev/",
+        "filters": ["Open source"]
+    },
+    {
+        "title": "Goodfirstissue 2",
+        "description": "Make your first contribution to open-source",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://goodfirstissues.com/",
+        "filters": ["Open source"]
+    },
+    {
+        "title": "Goodfirstissue 3",
+        "description": "Make your first contribution to open-source",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://forgoodfirstissue.github.com/",
+        "filters": ["Open source"]
+    },
+    {
+        "title": "Planetscale",
+        "description": "The ultimate MySQL database platform",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://planetscale.com/",
+        "filters": ["Hosting db", "MySql", "Sql"]
+    },
+    {
+        "title": "Turso",
+        "description": "Countless databases Embedded anywhere Simple",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://turso.tech/libsql",
+        "filters": ["Hosting db", "Sqlite", "Sql"]
+    },
+    {
+        "title": "Upstash",
+        "description": "Serverless Data Platform",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://upstash.com/",
+        "filters": ["Hosting db", "Redis", "NoSql"]
+    },
+    {
+        "title": "Digitalocean",
+        "description": "Worry-free PostgreSQL hosting",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.digitalocean.com/products/managed-databases-postgresql",
+        "filters": ["Hosting db", "Postgres", "Sql"]
+    },
+    {
+        "title": "CLOUD ATLAS",
+        "description": "Mongo db hosting",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.mongodb.com/es/atlas/database",
+        "filters": ["Hosting db", "Mongodb", "NoSql"]
+    },
+    {
+        "title": "Lucide",
+        "description": "Beautiful and customizable icons",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://lucide.dev/icons/",
+        "filters": ["Icons"]
+    },
+    {
+        "title": "Tabler.io/icons",
+        "description": "Over 4950 pixel-perfect icons for web design",
+        "isRecommended": true,
+        "isPrivileged": true,
+        "url": "https://tabler.io/icons",
+        "filters": ["Icons"]
+    },
+    {
+        "title": "Animista",
+        "description": "Collection of css animations",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://animista.net/",
+        "filters": ["Css animations"]
+    },
+    {
+        "title": "Plotteus",
+        "description": "The JavaScript library for data storytelling",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.plotteus.dev/",
+        "filters": ["Javascript animations"]
+    },
+    {
+        "title": "Css-peeps",
+        "description": "Illustrations only with css",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://css-peeps.com/",
+        "filters": ["Css", "Illustrations"]
+    },
+    {
+        "title": "Openpeeps",
+        "description": "A hand-drawn illustration library",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.openpeeps.com/",
+        "filters": ["Illustrations"]
+    },
+    {
+        "title": "Flexboxfroggy",
+        "description": "Game where you help Froggy and friends by writing CSS code!",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://flexboxfroggy.com/",
+        "filters": ["Learn", "Css"]
+    },
+    {
+        "title": "Layout.bradwoods",
+        "description": "CSS Layout Generator",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://layout.bradwoods.io/",
+        "filters": ["Css"]
+    },
+    {
+        "title": "Tally.so",
+        "description": "The simplest way to create forms",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://tally.so/",
+        "filters": ["Form"]
+    },
+    {
+        "title": "Layoffs.fyi",
+        "description": "Layoffs in the tech world",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://layoffs.fyi/",
+        "filters": ["Info"]
+    },
+    {
+        "title": "Codelabs by google",
+        "description": "Google Developers Codelabs provide a guided, tutorial, hands-on coding experience",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://codelabs.developers.google.com/?category=web",
+        "filters": ["Learn"]
+    },
+    {
+        "title": "Web.dev",
+        "description": "Explore our growing collection of courses on key web design and development subjects",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://web.dev/learn",
+        "filters": ["Learn"]
+    },
+    {
+        "title": "Remotion",
+        "description": "Create real MP4 videos using React",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.remotion.dev/",
         "filters": ["React"]
     },
     {
-        "title": "Web capture",
-        "description": "Record media from the browser",
-        "isRecommended": true,
+        "title": "React-use",
+        "description": "Collection of react hooks",
+        "isRecommended": false,
         "isPrivileged": false,
-        "url": "https://www.web-capture.online/",
-        "filters": ["React", "Typescript"]
+        "url": "https://github.com/streamich/react-use",
+        "filters": ["React"]
     },
     {
-        "title": "Blog",
-        "description": "Record media from the browser",
-        "isRecommended": true,
+        "title": "Web3isgoinggreat",
+        "description": "...and is definitely not an enormous grift that's pouring lighter fluid on our already smoldering planet",
+        "isRecommended": false,
         "isPrivileged": false,
-        "url": "https://www.web-capture.online/",
-        "filters": ["Astro", "Typescript"]
+        "url": "https://www.web3isgoinggreat.com/",
+        "filters": ["Info"]
+    },
+    {
+        "title": "Realtime Colors",
+        "description": "Visualize Your Colors & Fonts On a Real Site",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.realtimecolors.com/?colors=130e01-fffaeb-ff8400-fff5d6-cf4307&fonts=Poppins-Poppins",
+        "filters": ["Colors"]
+    },
+    {
+        "title": "Learn Git",
+        "description": "Learn git with an excellent book",
+        "isRecommended": true,
+        "isPrivileged": true,
+        "url": "https://uniwebsidad.com/libros/pro-git",
+        "filters": ["Learn", "Git"]
+    },
+    {
+        "title": "Speakpipe",
+        "description": "Receive voice messages from your podcast listeners",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.speakpipe.com/",
+        "filters": ["Interactive"]
     }
 ]

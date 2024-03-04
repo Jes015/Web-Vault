@@ -5,6 +5,7 @@ export const ToolSchema = z.object({
     description: z.string(),
     isRecommended: z.boolean(),
     isPrivileged: z.boolean(),
+    isDangerous: z.boolean().optional(),
     url: z.string().url(),
     filters: z.string().array()
 })

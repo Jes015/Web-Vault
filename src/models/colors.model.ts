@@ -1,3 +1,5 @@
+import { z } from "astro:content"
+
 export const colors = {
     blue: {
         name: 'blue',
@@ -33,5 +35,17 @@ export const colors = {
         name: 'teal',
         bg: '#ccfbf1',
         text: '#14b8a6'
+    },
+    fuchsia: {
+        name: 'fuchsia',
+        bg: '#fae8ff',
+        text: '#d946ef'
+    },
+    red: {
+        name: 'red',
+        bg: '#fee2e2',
+        text: '#ef4444'
     }
 } as const
+
+export const colorsEnumsSchema = z.enum(['blue', 'yellow', 'orange', 'pink', 'green', 'cyan', 'teal', 'fuchsia', 'red'])
