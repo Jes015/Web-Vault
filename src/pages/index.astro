@@ -5,15 +5,13 @@ import Layout from "../layouts/Layout.astro"
 ---
 
 <Layout title="Home">
-	<div>
+	<div class="h-full">
 		<header class="flex justify-between items-center">
 			<div>
 				<h2 class="text-xl">Tools</h2>
 			</div>
 			<Filters client:load />
 		</header>
-		<div class="mt-1 grid grid-cols-3 gap-1 min-h-72 items-stretch">
-			<Tools />
-		</div>
+		<Tools client:load />
 	</div>
 </Layout>
