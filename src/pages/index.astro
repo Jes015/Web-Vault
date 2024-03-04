@@ -1,7 +1,6 @@
 ---
+import { Filters } from "@/components/Filters"
 import { Tools } from "@/components/Tools"
-import { colors, filters } from "@/models"
-import { MagnifyingGlassIcon } from "@radix-ui/react-icons"
 import Layout from "../layouts/Layout.astro"
 ---
 
@@ -11,53 +10,7 @@ import Layout from "../layouts/Layout.astro"
 			<div>
 				<h2 class="text-xl">Tools</h2>
 			</div>
-			<div class="flex flex-col relative">
-				<label
-					for="filters_menu_trigger"
-					class="border text-sm rounded-md p-1 cursor-pointer select-none hover:bg-neutral-100"
-				>
-					Filters
-				</label>
-				<input
-					class="hidden peer"
-					id="filters_menu_trigger"
-					type="checkbox"
-				/>
-				<div
-					class="absolute top-[2rem] right-0 bg-white border rounded-lg shadow-md z-50 translate-x-56 peer-checked:translate-x-0 transition-all"
-				>
-					<header class="border-b p-1">
-						<h3 class="font-medium">Filters</h3>
-					</header>
-					<label
-						class="flex items-center pl-1 gap-[0.1rem] border-b text-xs"
-					>
-						<MagnifyingGlassIcon
-							className="text-zinc-700"
-							width={18}
-							height={18}
-						/>
-						<input
-							class="p-2 outline-none"
-							type="text"
-							placeholder="Search filters"
-						/>
-					</label>
-					<div class="flex flex-wrap items-stretch p-1 gap-1">
-						{
-							filters.map((filter) => (
-								<span
-									class="rounded-md font-medium select-none cursor-pointer text-[0.7rem] p-1"
-									style={`background-color:${colors[filter.color].bg};color:${colors[filter.color].text};`}
-								>
-									{filter.name}
-								</span>
-							))
-						}
-						
-					</div>
-				</div>
-			</div>
+			<Filters client:load />
 		</header>
 		<div class="mt-1 grid grid-cols-3 gap-1 min-h-72 items-stretch">
 			<Tools />

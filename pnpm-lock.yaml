@@ -20,6 +20,9 @@ dependencies:
   '@fontsource/geist-sans':
     specifier: ^5.0.1
     version: 5.0.1
+  '@formkit/auto-animate':
+    specifier: ^0.8.1
+    version: 0.8.1
   '@radix-ui/react-icons':
     specifier: ^1.3.0
     version: 1.3.0(react@18.2.0)
@@ -682,6 +685,10 @@ packages:
 
   /@fontsource/geist-sans@5.0.1:
     resolution: {integrity: sha512-Q/GGewhqc6WTtqbOQWaHCar/BZY3H6Nu0J65BuWYOCXUhc/iEhRP9n+7V2KZ3X8+/ZNMCfFzxzrUZrQYB/lnNw==}
+    dev: false
+
+  /@formkit/auto-animate@0.8.1:
+    resolution: {integrity: sha512-0/Z2cuNXWVVIG/l0SpcHAWFhGdvLJ8DRvEfRWvmojtmRWfEy+LWNwgDazbZqY0qQYtkHcoEK3jBLkhiZaB/4Ig==}
     dev: false
 
   /@isaacs/cliui@8.0.2:
