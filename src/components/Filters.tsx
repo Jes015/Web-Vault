@@ -1,5 +1,5 @@
 import { type BaseComponentType } from "@/models"
-import { FiltersPopover } from "./FiltersPopover"
+import { FiltersPopover } from "./FiltersPopover/FiltersPopover"
 import { FiltersSelected } from "./FiltersSelected"
 
 export const Filters: BaseComponentType = () => {

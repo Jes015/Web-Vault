@@ -1,21 +1,34 @@
 import { colors, type BaseComponentType } from "@/models"
-import { useAppStore } from "@/store/zustand/app.zustand"
 import { useAutoAnimate } from "@formkit/auto-animate/react"
-import { MagnifyingGlassIcon } from "@radix-ui/react-icons"
-import { useState } from "react"
+import { MagnifyingGlassIcon, MoonIcon } from "@radix-ui/react-icons"
+import { useFiltersPopover } from "./hooks"
 
 export const FiltersPopover: BaseComponentType = () => {
-    const [isExpanded, setIsExpanded] = useState(false)
-    const [filtersData, toggleFilterStatus] = useAppStore(state => [state.filters, state.toggleFilterStatus])
+    const {
+        filtersNoSelected,
+        addFilter,
+        toggleIsExpanded,
+        isExpanded,
+        changeSearchFilter
+    } = useFiltersPopover()
     const [parentAnimations] = useAutoAnimate()
 
+
     const handleOnClickToToggleExpand = () => {
-        setIsExpanded(prev => !prev)
+        toggleIsExpanded()
     }
 
     const handleOnClickToAddFilter = (filterName: string) => () => {
-        toggleFilterStatus(filterName)
+        addFilter(filterName)
     }
+
+    const handleOnInputSearch = (e: React.FormEvent<HTMLInputElement>) => {
+        const inputValue = e.currentTarget.value || null
+
+        changeSearchFilter(inputValue)
+    }
+
+    
 
     return (
         <div className="flex flex-col relative">
@@ -45,20 +58,21 @@ export const FiltersPopover: BaseComponentType = () => {
                         height={18}
                     />
                     <input
+                        onChange={handleOnInputSearch}
                         className="p-2 outline-none"
                         type="text"
                         placeholder="Search filters"
                     />
                 </label>
                 <div
-                    className="flex flex-wrap items-stretch p-1 gap-1 overflow-hidden max-h-[12rem] transition-all"
+                    className="flex flex-wrap items-start p-1 gap-1 overflow-hidden max-h-[12rem] transition-all"
                     style={{
                         maxHeight: isExpanded ? '90rem' : ''
                     }}
                     ref={parentAnimations}
                 >
                     {
-                        filtersData.filter(filter => !filter.isSelected).map((filter) => (
+                        filtersNoSelected.map((filter) => (
                             <button
                                 key={filter.name}
                                 className="rounded-md font-medium select-none cursor-pointer text-[0.7rem] p-1 whitespace-nowrap"
@@ -72,22 +86,34 @@ export const FiltersPopover: BaseComponentType = () => {
                             </button>
                         ))
                     }
+                    {
+                        filtersNoSelected?.[0] == null && (
+                            <div className="flex flex-col justify-center items-center w-full py-2">
+                                <MoonIcon width={22} height={22} className="opacity-50"/>
+                                <span className="text-xs font-semibold">No filters found</span>
+                            </div>
+                        )
+                    }
                 </div>
-                <div
-                    className="flex justify-center w-full bottom-0 py-1 pb-2 left-0 bg-gradient-to-t from-[rgba(255,255,255,0.9)] to-[rgba(255,255,255,0.6)]"
-                    style={{
-                        position: isExpanded ? 'relative' : 'absolute'
-                    }}
-                >
-                    <button
-                        onClick={handleOnClickToToggleExpand}
-                        className="text-blue-400 hover:underline font-medium"
-                    >
-                        {
-                            isExpanded ? 'Show less' : 'Show more'
-                        }
-                    </button>
-                </div>
+                {
+                    filtersNoSelected.length >= 12 && (
+                        <div
+                            className="flex justify-center w-full bottom-0 py-1 pb-2 left-0 bg-gradient-to-t from-[rgba(255,255,255,0.9)] to-[rgba(255,255,255,0.6)]"
+                            style={{
+                                position: isExpanded ? 'relative' : 'absolute'
+                            }}
+                        >
+                            <button
+                                onClick={handleOnClickToToggleExpand}
+                                className="text-blue-400 hover:underline font-medium"
+                            >
+                                {
+                                    isExpanded ? 'Show less' : 'Show more'
+                                }
+                            </button>
+                        </div>
+                    )
+                }
             </div>
         </div>
     )
