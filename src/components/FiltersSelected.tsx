@@ -11,7 +11,6 @@ export const FiltersSelected: BaseComponentType = () => {
         toggleFilterStatus(filterName)
     }
 
-    console.log({filtersSelected: filters})
     return (
         <div 
             className="flex gap-1 max-w-64 justify-end overflow-hidden"

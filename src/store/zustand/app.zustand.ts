@@ -1,4 +1,5 @@
 import { filtersData, type Filter, type FilterArray, type ToolArray } from '@/models'
+import { setPageSearchParams } from '@/utils'
 import { getCollection } from 'astro:content'
 import { create } from 'zustand'
 
@@ -23,6 +24,8 @@ export const useAppStore = create<AppStore>((set, get) => ({
     const newFilter: Filter = { ...get().filters[filterIndex], isSelected: !get().filters[filterIndex].isSelected }
   
     newFilterArray = newFilterArray.with(filterIndex, newFilter)
+
+    setPageSearchParams(newFilterArray)
 
     set({ filters: newFilterArray })
   }
