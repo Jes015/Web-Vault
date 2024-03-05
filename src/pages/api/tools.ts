@@ -28,6 +28,6 @@ export const GET: APIRoute = async ({ url }) => {
 
 const sendResponse = (array: ToolArray, offset: number, limit: number) => {
   return new Response(
-    JSON.stringify(array.slice(offset, offset + limit))
+    JSON.stringify(array.slice(offset, limit))
   )
 }

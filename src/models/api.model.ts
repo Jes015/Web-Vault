@@ -10,6 +10,14 @@ export const apiRoutes = (() => {
     const baseRoute = '/api/'
 
     return {
-        tools: (filters: string = '', offset: number = 0, limit: number = 0) => `${baseRoute}tools?${ApiFilterParamName}=${filters}&${ApiPaginationNames.limit}=${limit}&${ApiPaginationNames.offset}=${offset}'`
-    } as const
+        tools: (filters: string = '', offset: number = 0, limit: number = 0) => {
+            let route = `${baseRoute}tools?${ApiPaginationNames.limit}=${limit}&${ApiPaginationNames.offset}=${offset}`
+
+            if (filters !== '') {
+                route += `&${ApiFilterParamName}=${filters}`
+            }
+
+            return route
+        }
+    }
 })()

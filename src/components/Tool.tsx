@@ -43,7 +43,6 @@ export const Tool: FC<ToolProps> = ({ data, ...props }) => {
                     )
                 }
             </div>
-            <footer></footer>
         </a>
 
     )
