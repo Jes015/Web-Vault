@@ -11,7 +11,7 @@ export const Tools = () => {
         <div>
             <div
                 ref={parentAnimations}
-                className="mt-1 grid grid-cols-3 gap-1 min-h-72"
+                className="mt-1 grid content-start sm:grid-cols-3 gap-1 min-h-72"
                 style={{
                     alignItems: tools.length <= 3 ? 'start' : 'stretch'
                 }}
