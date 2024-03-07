@@ -1,0 +1,32 @@
+---
+import { ArrowUpIcon } from "@radix-ui/react-icons"
+---
+
+<a
+    aria-label="Go to the top of the page"
+    class="toTheTop border border-zinc-300 bg-neutral-50 shadow-2xl inline-block rounded-full p-1 fixed bottom-2 right-2 hover:bg-neutral-200"
+    href="#top"
+    title="Go to the top of the page"
+>
+    <ArrowUpIcon className="text-neutral-800" aria-hidden="true" width={28} height={28} />
+</a>
+
+<style>
+    .toTheTop {
+        animation-name: showToTheTopAnchor;
+        animation-timeline: scroll();
+        animation-fill-mode: forwards;
+        animation-range: 0dvh 30dvh;
+        transform: translateY(50dvh);
+        opacity:0;
+        filter: blur(10px);
+    }
+
+    @keyframes showToTheTopAnchor {
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+            filter: blur(0);
+        }
+    }
+</style>
