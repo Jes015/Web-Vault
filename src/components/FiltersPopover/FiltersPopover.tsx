@@ -65,9 +65,12 @@ export const FiltersPopover: BaseComponentType = () => {
                     />
                 </label>
                 <div
-                    className="flex flex-wrap items-start p-1 gap-1 overflow-hidden max-h-[12rem] transition-all"
+                    className="flex flex-wrap items-start p-1 gap-1 overflow-hidden transition-all scroll"
                     style={{
-                        maxHeight: isExpanded ? '90rem' : ''
+                        maxHeight: isExpanded ? '30rem' : '12rem',
+                        overflowY: isExpanded ? 'auto' : 'clip',
+                        // @ts-ignore i want to change the scroll bar width with this line and ts does not let me for the types
+                        '--sb-size': '6px'
                     }}
                     ref={parentAnimations}
                 >
