@@ -5,7 +5,10 @@
         "isRecommended": true,
         "isPrivileged": true,
         "url": "https://www.web-capture.online/",
-        "filters": ["Recording"]
+        "filters": [
+            "Recording",
+            "Best web apps"
+        ]
     },
     {
         "title": "Get deploying",
@@ -13,7 +16,11 @@
         "isRecommended": true,
         "isPrivileged": false,
         "url": "https://getdeploying.com/",
-        "filters": ["Front Hosting", "Back Hosting", "Info"]
+        "filters": [
+            "Front Hosting",
+            "Back Hosting",
+            "Info"
+        ]
     },
     {
         "title": "Svgl app",
@@ -21,7 +28,10 @@
         "isRecommended": true,
         "isPrivileged": false,
         "url": "https://svgl.app/",
-        "filters": ["Icons"]
+        "filters": [
+            "Icons",
+            "Svg"
+        ]
     },
     {
         "title": "Warp",
@@ -29,7 +39,9 @@
         "isRecommended": true,
         "isPrivileged": false,
         "url": "https://www.warp.dev/",
-        "filters": ["Terminal"]
+        "filters": [
+            "Terminal"
+        ]
     },
     {
         "title": "Svg omg",
@@ -37,7 +49,11 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://jakearchibald.github.io/svgomg/",
-        "filters": ["Icons"]
+        "filters": [
+            "Icons",
+            "Optimize image",
+            "Svg"
+        ]
     },
     {
         "title": "Nnnoise",
@@ -45,7 +61,11 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://fffuel.co/nnnoise/",
-        "filters": ["Textures", "Icons"]
+        "filters": [
+            "Textures",
+            "Icons",
+            "Svg"
+        ]
     },
     {
         "title": "Tailwind animations",
@@ -53,7 +73,9 @@
         "isRecommended": true,
         "isPrivileged": false,
         "url": "https://tailwindcss-animations.vercel.app/",
-        "filters": ["Tailwind"]
+        "filters": [
+            "Tailwind"
+        ]
     },
     {
         "title": "Pico css",
@@ -61,7 +83,9 @@
         "isRecommended": true,
         "isPrivileged": false,
         "url": "https://picocss.com/",
-        "filters": ["Css Frameworks"]
+        "filters": [
+            "Css Frameworks"
+        ]
     },
     {
         "title": "Bolt css",
@@ -69,7 +93,9 @@
         "isRecommended": true,
         "isPrivileged": false,
         "url": "https://boltcss.com/",
-        "filters": ["Css Frameworks"]
+        "filters": [
+            "Css Frameworks"
+        ]
     },
     {
         "title": "Resend",
@@ -77,7 +103,9 @@
         "isRecommended": true,
         "isPrivileged": false,
         "url": "https://resend.com/",
-        "filters": ["Message services"]
+        "filters": [
+            "Message services"
+        ]
     },
     {
         "title": "Twilio",
@@ -85,7 +113,9 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://www.twilio.com/",
-        "filters": ["Message services"]
+        "filters": [
+            "Message services"
+        ]
     },
     {
         "title": "Sendgrid",
@@ -93,7 +123,9 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://sendgrid.com/",
-        "filters": ["Message services"]
+        "filters": [
+            "Message services"
+        ]
     },
     {
         "title": "Ascii theater",
@@ -102,7 +134,9 @@
         "isPrivileged": false,
         "isDangerous": true,
         "url": "https://ascii.theater/",
-        "filters": ["Terminal"]
+        "filters": [
+            "Terminal"
+        ]
     },
     {
         "title": "Devjobsscanner",
@@ -110,7 +144,9 @@
         "isRecommended": true,
         "isPrivileged": false,
         "url": "https://www.devjobsscanner.com/",
-        "filters": ["Jobs"]
+        "filters": [
+            "Jobs"
+        ]
     },
     {
         "title": "Icons for github",
@@ -118,7 +154,9 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://chromewebstore.google.com/detail/material-icons-for-github/bggfcpfjbdkhfhfmkjpbhnkhnpjjeomc",
-        "filters": ["Chrome extensions"]
+        "filters": [
+            "Chrome extensions"
+        ]
     },
     {
         "title": "Formkit dad",
@@ -126,7 +164,11 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://drag-and-drop.formkit.com/",
-        "filters": ["React", "Javascript", "Drag and drop"]
+        "filters": [
+            "React",
+            "Javascript",
+            "Drag and drop"
+        ]
     },
     {
         "title": "Bg.ibelick",
@@ -134,7 +176,10 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://bg.ibelick.com/",
-        "filters": ["Tailwind", "Textures"]
+        "filters": [
+            "Tailwind",
+            "Textures"
+        ]
     },
     {
         "title": "Loadership",
@@ -142,7 +187,10 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://www.loadership.com/",
-        "filters": ["Css", "Loaders"]
+        "filters": [
+            "Css",
+            "Loaders"
+        ]
     },
     {
         "title": "Getonbrd",
@@ -150,7 +198,9 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://www.getonbrd.com/",
-        "filters": ["Jobs"]
+        "filters": [
+            "Jobs"
+        ]
     },
     {
         "title": "Prosmarketplace",
@@ -158,7 +208,9 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://prosmarketplace.com/",
-        "filters": ["Jobs"]
+        "filters": [
+            "Jobs"
+        ]
     },
     {
         "title": "Infojobs",
@@ -166,7 +218,9 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://www.infojobs.net/",
-        "filters": ["Jobs"]
+        "filters": [
+            "Jobs"
+        ]
     },
     {
         "title": "Indeed",
@@ -174,7 +228,9 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://indeed.com/",
-        "filters": ["Jobs"]
+        "filters": [
+            "Jobs"
+        ]
     },
     {
         "title": "V-fonts",
@@ -182,7 +238,9 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://v-fonts.com/licenses/open-source",
-        "filters": ["Fonts"]
+        "filters": [
+            "Fonts"
+        ]
     },
     {
         "title": "Shots",
@@ -190,7 +248,9 @@
         "isRecommended": true,
         "isPrivileged": false,
         "url": "https://shots.so/",
-        "filters": ["Mockups"]
+        "filters": [
+            "Mockups"
+        ]
     },
     {
         "title": "Emscripten",
@@ -198,7 +258,9 @@
         "isRecommended": true,
         "isPrivileged": false,
         "url": "https://emscripten.org/",
-        "filters": ["Wasm"]
+        "filters": [
+            "Wasm"
+        ]
     },
     {
         "title": "Ffmpegwasm",
@@ -206,7 +268,9 @@
         "isRecommended": true,
         "isPrivileged": false,
         "url": "https://github.com/ffmpegwasm/ffmpeg.wasm",
-        "filters": ["Wasm"]
+        "filters": [
+            "Wasm"
+        ]
     },
     {
         "title": "Better-commits",
@@ -214,7 +278,11 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://github.com/Everduin94/better-commits",
-        "filters": ["Cli", "Terminal", "Git"]
+        "filters": [
+            "Cli",
+            "Terminal",
+            "Git"
+        ]
     },
     {
         "title": "Lite-youtube-embed",
@@ -222,7 +290,9 @@
         "isRecommended": true,
         "isPrivileged": false,
         "url": "https://github.com/paulirish/lite-youtube-embed",
-        "filters": ["Web components"]
+        "filters": [
+            "Web components"
+        ]
     },
     {
         "title": "Goodfirstissue",
@@ -230,7 +300,9 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://goodfirstissue.dev/",
-        "filters": ["Open source"]
+        "filters": [
+            "Open source"
+        ]
     },
     {
         "title": "Goodfirstissue 2",
@@ -238,7 +310,9 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://goodfirstissues.com/",
-        "filters": ["Open source"]
+        "filters": [
+            "Open source"
+        ]
     },
     {
         "title": "Goodfirstissue 3",
@@ -246,7 +320,9 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://forgoodfirstissue.github.com/",
-        "filters": ["Open source"]
+        "filters": [
+            "Open source"
+        ]
     },
     {
         "title": "Planetscale",
@@ -254,7 +330,11 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://planetscale.com/",
-        "filters": ["Hosting db", "MySql", "Sql"]
+        "filters": [
+            "Hosting db",
+            "MySql",
+            "Sql"
+        ]
     },
     {
         "title": "Turso",
@@ -262,7 +342,11 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://turso.tech/libsql",
-        "filters": ["Hosting db", "Sqlite", "Sql"]
+        "filters": [
+            "Hosting db",
+            "Sqlite",
+            "Sql"
+        ]
     },
     {
         "title": "Upstash",
@@ -270,7 +354,11 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://upstash.com/",
-        "filters": ["Hosting db", "Redis", "NoSql"]
+        "filters": [
+            "Hosting db",
+            "Redis",
+            "NoSql"
+        ]
     },
     {
         "title": "Digitalocean",
@@ -278,7 +366,11 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://www.digitalocean.com/products/managed-databases-postgresql",
-        "filters": ["Hosting db", "Postgres", "Sql"]
+        "filters": [
+            "Hosting db",
+            "Postgres",
+            "Sql"
+        ]
     },
     {
         "title": "CLOUD ATLAS",
@@ -286,7 +378,11 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://www.mongodb.com/es/atlas/database",
-        "filters": ["Hosting db", "Mongodb", "NoSql"]
+        "filters": [
+            "Hosting db",
+            "Mongodb",
+            "NoSql"
+        ]
     },
     {
         "title": "Lucide",
@@ -294,7 +390,9 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://lucide.dev/icons/",
-        "filters": ["Icons"]
+        "filters": [
+            "Icons"
+        ]
     },
     {
         "title": "Tabler.io/icons",
@@ -302,7 +400,9 @@
         "isRecommended": true,
         "isPrivileged": true,
         "url": "https://tabler.io/icons",
-        "filters": ["Icons"]
+        "filters": [
+            "Icons"
+        ]
     },
     {
         "title": "Animista",
@@ -310,7 +410,9 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://animista.net/",
-        "filters": ["Css animations"]
+        "filters": [
+            "Css animations"
+        ]
     },
     {
         "title": "Plotteus",
@@ -318,7 +420,9 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://www.plotteus.dev/",
-        "filters": ["Javascript animations"]
+        "filters": [
+            "Javascript animations"
+        ]
     },
     {
         "title": "Css-peeps",
@@ -326,7 +430,10 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://css-peeps.com/",
-        "filters": ["Css", "Illustrations"]
+        "filters": [
+            "Css",
+            "Illustrations"
+        ]
     },
     {
         "title": "Openpeeps",
@@ -334,7 +441,9 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://www.openpeeps.com/",
-        "filters": ["Illustrations"]
+        "filters": [
+            "Illustrations"
+        ]
     },
     {
         "title": "Flexboxfroggy",
@@ -342,7 +451,10 @@
         "isRecommended": true,
         "isPrivileged": false,
         "url": "https://flexboxfroggy.com/",
-        "filters": ["Learn", "Css"]
+        "filters": [
+            "Learn",
+            "Css"
+        ]
     },
     {
         "title": "Layout.bradwoods",
@@ -350,7 +462,9 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://layout.bradwoods.io/",
-        "filters": ["Css"]
+        "filters": [
+            "Css"
+        ]
     },
     {
         "title": "Tally.so",
@@ -358,7 +472,9 @@
         "isRecommended": true,
         "isPrivileged": false,
         "url": "https://tally.so/",
-        "filters": ["Form"]
+        "filters": [
+            "Form"
+        ]
     },
     {
         "title": "Layoffs.fyi",
@@ -366,7 +482,9 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://layoffs.fyi/",
-        "filters": ["Info"]
+        "filters": [
+            "Info"
+        ]
     },
     {
         "title": "Codelabs by google",
@@ -374,7 +492,9 @@
         "isRecommended": true,
         "isPrivileged": false,
         "url": "https://codelabs.developers.google.com/?category=web",
-        "filters": ["Learn"]
+        "filters": [
+            "Learn"
+        ]
     },
     {
         "title": "Web.dev",
@@ -382,7 +502,9 @@
         "isRecommended": true,
         "isPrivileged": false,
         "url": "https://web.dev/learn",
-        "filters": ["Learn"]
+        "filters": [
+            "Learn"
+        ]
     },
     {
         "title": "Remotion",
@@ -390,7 +512,9 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://www.remotion.dev/",
-        "filters": ["React"]
+        "filters": [
+            "React"
+        ]
     },
     {
         "title": "React-use",
@@ -398,7 +522,9 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://github.com/streamich/react-use",
-        "filters": ["React"]
+        "filters": [
+            "React"
+        ]
     },
     {
         "title": "Web3isgoinggreat",
@@ -406,7 +532,9 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://www.web3isgoinggreat.com/",
-        "filters": ["Info"]
+        "filters": [
+            "Info"
+        ]
     },
     {
         "title": "Realtime Colors",
@@ -414,7 +542,9 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://www.realtimecolors.com/?colors=130e01-fffaeb-ff8400-fff5d6-cf4307&fonts=Poppins-Poppins",
-        "filters": ["Colors"]
+        "filters": [
+            "Colors"
+        ]
     },
     {
         "title": "Learn Git",
@@ -422,7 +552,10 @@
         "isRecommended": true,
         "isPrivileged": true,
         "url": "https://uniwebsidad.com/libros/pro-git",
-        "filters": ["Learn", "Git"]
+        "filters": [
+            "Learn",
+            "Git"
+        ]
     },
     {
         "title": "Speakpipe",
@@ -430,6 +563,940 @@
         "isRecommended": false,
         "isPrivileged": false,
         "url": "https://www.speakpipe.com/",
-        "filters": ["Interactive"]
+        "filters": [
+            "Interactive"
+        ]
+    },
+    {
+        "title": "Playwright",
+        "description": "End-to-end testing for modern web apps",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://playwright.dev/",
+        "filters": [
+            "Testing",
+            "Testing E2E",
+            "Testing Components"
+        ]
+    },
+    {
+        "title": "Free-for.dev",
+        "description": "List of software (SaaS, PaaS, IaaS, etc.) and other offerings with free developer tiers",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://free-for.dev/#/",
+        "filters": [
+            "Info"
+        ]
+    },
+    {
+        "title": "Atroposjs",
+        "description": "Lightweight, free and open-source JavaScript library to create stunning touch-friendly 3D parallax hover effects",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://atroposjs.com/",
+        "filters": [
+            "Javascript",
+            "Javascript animations",
+            "Css animations",
+            "Css"
+        ]
+    },
+    {
+        "title": "Responsively",
+        "description": "Master the Art of Crafting Responsive Web Apps like a Pro",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://responsively.app/",
+        "filters": [
+            "Web Responsive"
+        ]
+    },
+    {
+        "title": "Transparent textures",
+        "description": "Best textures in the web",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.transparenttextures.com/",
+        "filters": [
+            "Textures"
+        ]
+    },
+    {
+        "title": "Photopea",
+        "description": "Photo editor that works in browser",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.photopea.com/",
+        "filters": [
+            "Image editors",
+            "Best web apps"
+        ]
+    },
+    {
+        "title": "Svghub",
+        "description": "A library of over 70 custom-color elements ready to paste into your project",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://svghub.vercel.app/",
+        "filters": [
+            "Illustrations",
+            "Svg"
+        ]
+    },
+    {
+        "title": "Shapes.framer",
+        "description": "Explore the collection of 120+ basic SVG shapes for your upcoming project",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://shapes.framer.website/",
+        "filters": [
+            "Icons",
+            "Svg"
+        ]
+    },
+    {
+        "title": "Cloudinary",
+        "description": "Image and video api platform",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://cloudinary.com/",
+        "filters": [
+            "Hosting images",
+            "Hosting video"
+        ]
+    },
+    {
+        "title": "Unsplash",
+        "description": "Image platform",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://unsplash.com/",
+        "filters": [
+            "Hosting images"
+        ]
+    },
+    {
+        "title": "Google zx",
+        "description": "A tool for writing better scripts",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://github.com/google/zx",
+        "filters": [
+            "Node packages"
+        ]
+    },
+    {
+        "title": "Fnm",
+        "description": "Fast and simple node.js version manager, built in rust",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://github.com/Schniz/fnm",
+        "filters": [
+            "Terminal",
+            "Node"
+        ]
+    },
+    {
+        "title": "Slugify",
+        "description": "Slugifies a string",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.npmjs.com/package/slugify",
+        "filters": [
+            "Node packages"
+        ]
+    },
+    {
+        "title": "Ollama",
+        "description": "Get up and running with large language models, locally",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://ollama.com/",
+        "filters": [
+            "AI"
+        ]
+    },
+    {
+        "title": "Yesicon",
+        "description": "216,162 vectorial icons",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://yesicon.app/",
+        "filters": [
+            "Icons"
+        ]
+    },
+    {
+        "title": "Crxjs",
+        "description": "Vite plugin that helps you make chrome extensions using modern web development technology",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://crxjs.dev/",
+        "filters": [
+            "Chrome extensions"
+        ]
+    },
+    {
+        "title": "Ipinfo",
+        "description": "The trusted source for IP address data",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://ipinfo.io/",
+        "filters": [
+            "Ip"
+        ]
+    },
+    {
+        "title": "Deviant art",
+        "description": "The trusted source for IP address data",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.deviantart.com/",
+        "filters": [
+            "Drawing"
+        ]
+    },
+    {
+        "title": "Css loaders",
+        "description": "Best css loaders collection",
+        "isRecommended": true,
+        "isPrivileged": true,
+        "url": "https://cssloaders.github.io/",
+        "filters": [
+            "Loaders",
+            "Css"
+        ]
+    },
+    {
+        "title": "Gsap",
+        "description": "A wildly robust JavaScript animation library built for professionals",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://gsap.com/",
+        "filters": [
+            "Javascript animations"
+        ]
+    },
+    {
+        "title": "Flameshot",
+        "description": "Powerful, yet simple to use open-source screenshot software",
+        "isRecommended": true,
+        "isPrivileged": true,
+        "url": "https://flameshot.org/",
+        "filters": [
+            "Screenshot"
+        ]
+    },
+    {
+        "title": "Apexcharts",
+        "description": "Modern & Interactive Open-source Charts",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://apexcharts.com/",
+        "filters": [
+            "Charts"
+        ]
+    },
+    {
+        "title": "Echarts apache",
+        "description": "Modern & Interactive Open-source Charts",
+        "isRecommended": true,
+        "isPrivileged": true,
+        "url": "https://echarts.apache.org/en/index.html",
+        "filters": [
+            "Charts"
+        ]
+    },
+    {
+        "title": "Css status",
+        "description": "Info about css proposals and more",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.w3.org/Style/CSS/current-work.en.html",
+        "filters": [
+            "Info",
+            "Css"
+        ]
+    },
+    {
+        "title": "Beautiful-react-hooks",
+        "description": "Collection of tailor-made React hooks to enhance your development process and make it faster",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://antonioru.github.io/beautiful-react-hooks/",
+        "filters": [
+            "React"
+        ]
+    },
+    {
+        "title": "Fl0",
+        "description": "Deploy backend applications and databases in minutes",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.fl0.com/",
+        "filters": [
+            "Hosting db",
+            "Back Hosting"
+        ]
+    },
+    {
+        "title": "Can i use",
+        "description": "An essential tool for web developers who seek to ensure compatibility and accessibility of their websites and applications across different browsers and devices used by their users",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://caniuse.com/",
+        "filters": [
+            "Info",
+            "Best web apps"
+        ]
+    },
+    {
+        "title": "JSONPlaceholder",
+        "description": "Free fake API for testing and prototyping",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://jsonplaceholder.typicode.com/",
+        "filters": [
+            "API"
+        ]
+    },
+    {
+        "title": "Font awesome",
+        "description": "Internet's icon library and toolkit",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://fontawesome.com/",
+        "filters": [
+            "Fonts",
+            "Icons"
+        ]
+    },
+    {
+        "title": "Coolors",
+        "description": "A website for generating color palettes that helps graphic designers, artists, and creatives find inspiration and create color combinations for their projects",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://coolors.co/",
+        "filters": [
+            "Colors"
+        ]
+    },
+    {
+        "title": "Hero patterns",
+        "description": "Collection of repeatable SVG background patterns for you to use on your web projects",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://heropatterns.com/",
+        "filters": [
+            "Textures",
+            "Css",
+            "Svg"
+        ]
+    },
+    {
+        "title": "CSS gradient",
+        "description": "Website that offers a simple and easy-to-use tool for creating custom gradient backgrounds using CSS",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://cssgradient.io/",
+        "filters": [
+            "Css",
+            "Gradient"
+        ]
+    },
+    {
+        "title": "Form submit",
+        "description": "Create custom HTML forms for websites or applications and then receive form submissions via email without having to write any server-side code",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://formsubmit.co/",
+        "filters": [
+            "Form",
+            "Message services"
+        ]
+    },
+    {
+        "title": "Scrollbar.app",
+        "description": "Website that provides a simple and customizable solution for creating custom scrollbars for websites and applications",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://scrollbar.app/",
+        "filters": [
+            "Css"
+        ]
+    },
+    {
+        "title": "Squoosh",
+        "description": "Free online image compression tool for web developers and designers",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://squoosh.app/",
+        "filters": [
+            "Optimize image"
+        ]
+    },
+    {
+        "title": "Storyset",
+        "description": "Collection of customizable vector illustrations and animations for use in various digital projects",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://storyset.com/",
+        "filters": [
+            "Illustrations"
+        ]
+    },
+    {
+        "title": "AnimatiSS",
+        "description": "Collection of CSS animations",
+        "isRecommended": true,
+        "isPrivileged": true,
+        "url": "https://xsgames.co/animatiss/",
+        "filters": [
+            "Css",
+            "Css animations"
+        ]
+    },
+    {
+        "title": "Dribbble",
+        "description": "A platform for designers to showcase their work, discover new trends, and connect with other designers",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://dribbble.com/",
+        "filters": [
+            "Design"
+        ]
+    },
+    {
+        "title": "Can i include",
+        "description": "A web tool that checks the accessibility and semantic structure of HTML code on a website to ensure it is compatible for people with visual and motor disabilities",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://caninclude.glitch.me/",
+        "filters": [
+            "Info"
+        ]
+    },
+    {
+        "title": "RapidAPI",
+        "description": "A marketplace for APIs, where developers can discover and connect to over 20,000 APIs, manage and track usage, and easily deploy code snippets",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://rapidapi.com/",
+        "filters": [
+            "API",
+            "Info"
+        ]
+    },
+    {
+        "title": "HTTP Cats",
+        "description": "A website that provides a collection of HTTP status codes illustrated by cute cat images, making it a fun and entertaining way to debug and troubleshoot HTTP errors",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://httpcats.com/",
+        "filters": [
+            "Info",
+            "Http Status"
+        ]
+    },
+    {
+        "title": "Pravatar",
+        "description": "A simple API for generating random avatar images",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://pravatar.cc/",
+        "filters": [
+            "API",
+            "Genre images"
+        ]
+    },
+    {
+        "title": "Heroicons",
+        "description": "Free, open-source icon library designed for use in web, iOS, Android, and desktop apps",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://heroicons.com/",
+        "filters": [
+            "Icons",
+            "Svg",
+            "React"
+        ]
+    },
+    {
+        "title": "Unavatar",
+        "description": "A simple API to fetch avatar photos from popular sources like Twitter, GitHub, and many others based on an email or usertitle",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://unavatar.io/#/",
+        "filters": [
+            "API",
+            "Genre images"
+        ]
+    },
+    {
+        "title": "Vercel avatar",
+        "description": "Genre avatars based on a string",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://avatar.vercel.sh/",
+        "filters": [
+            "API",
+            "Genre images"
+        ]
+    },
+    {
+        "title": "Shortcode.dev",
+        "description": "A collection of useful, well-documented code snippets that you can use to speed up your development process",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://shortcode.dev/",
+        "filters": [
+            "Info",
+            "Javascript",
+            "Typescript"
+        ]
+    },
+    {
+        "title": "Font source",
+        "description": "Install and host locally open source fonts",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://fontsource.org/",
+        "filters": [
+            "Fonts",
+            "Node packages"
+        ]
+    },
+    {
+        "title": "Netlify",
+        "description": "All-in-one platform for automating modern web projects",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://netlify.com/",
+        "filters": [
+            "Front Hosting"
+        ]
+    },
+    {
+        "title": "Node.green",
+        "description": "A website that provides a comprehensive overview of the current state of support for various ECMAScript versions and features in different versions of Node.js",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://node.green/",
+        "filters": [
+            "Node",
+            "Info"
+        ]
+    },
+    {
+        "title": "Shaper",
+        "description": "Generative design tool for ui interfaces",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://shaper.design/",
+        "filters": [
+            "Colors"
+        ]
+    },
+    {
+        "title": "React SVG Icons",
+        "description": "A collection of customizable, SVG-based icons for react",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://reactsvgicons.com/",
+        "filters": [
+            "Icons",
+            "React",
+            "Svg"
+        ]
+    },
+    {
+        "title": "Iconoir",
+        "description": "Free vector icons for personal and commercial use",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://iconoir.com/",
+        "filters": [
+            "Icons",
+            "Svg"
+        ]
+    },
+    {
+        "title": "Toggles",
+        "description": "Theme toggles is a collection of awesome, easy to use, animated toggles; designed for switching between light and dark modes",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://toggles.dev/",
+        "filters": [
+            "React",
+            "Css"
+        ]
+    },
+    {
+        "title": "Bundlephobia",
+        "description": "A tool for finding the cost of adding a npm package to your bundle",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://bundlephobia.com/",
+        "filters": [
+            "Info",
+            "Node packages",
+            "Node"
+        ]
+    },
+    {
+        "title": "AI Tools",
+        "description": "A collection of AI-powered tools and resources for developers and designers",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://aitools.fyi/",
+        "filters": [
+            "AI",
+            "Info"
+        ]
+    },
+    {
+        "title": "Tome",
+        "description": "Presentations with ai",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://beta.tome.app/",
+        "filters": [
+            "AI",
+            "Presentations"
+        ]
+    },
+    {
+        "title": "APIs list",
+        "description": "A curated list of public apis for development",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://apislist.com/",
+        "filters": [
+            "API",
+            "Info"
+        ]
+    },
+    {
+        "title": "Color Magic",
+        "description": "Color palette generator with ai",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://colormagic.app/",
+        "filters": [
+            "Colors",
+            "AI"
+        ]
+    },
+    {
+        "title": "Phind",
+        "description": "The AI search engine for developers",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.phind.com/",
+        "filters": [
+            "AI",
+            "Info"
+        ]
+    },
+    {
+        "title": "Css frameworks",
+        "description": "Classless css framework",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://github.com/dbohdan/classless-css",
+        "filters": [
+            "Css Frameworks",
+            "Info"
+        ]
+    },
+    {
+        "title": "WinBox",
+        "description": "Modern html5 window manager for the web",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://nextapps-de.github.io/winbox/",
+        "filters": [
+            "Javascript"
+        ]
+    },
+    {
+        "title": "Shadow Gradients",
+        "description": "Genere css shadow gradients",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://alvarotrigo.com/shadow-gradients/",
+        "filters": [
+            "Css",
+            "Gradient"
+        ]
+    },
+    {
+        "title": "Happy Hues",
+        "description": "Curated colors in context",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.happyhues.co/",
+        "filters": [
+            "Colors"
+        ]
+    },
+    {
+        "title": "Toools Design",
+        "description": "A growing archive of 1000+ design resources, weekly updated for the community",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.toools.design/",
+        "filters": [
+            "Info",
+            "Colors",
+            "Illustrations",
+            "Icons",
+            "Fonts"
+        ]
+    },
+    {
+        "title": "Uiball Loders",
+        "description": "Free loaders & spinners for your next project. Built with html, css and a soupçon of svg",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://uiball.com/loaders",
+        "filters": [
+            "Css",
+            "React",
+            "Loaders"
+        ]
+    },
+    {
+        "title": "Patterns dev",
+        "description": "Improve how you architect web apps",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.patterns.dev/",
+        "filters": [
+            "Info",
+            "Architect"
+        ]
+    },
+    {
+        "title": "wweb Dev",
+        "description": "Resources and tools around web development",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://wweb.dev/resources",
+        "filters": [
+            "Css"
+        ]
+    },
+    {
+        "title": "ui goodies",
+        "description": "The best digital design resources from around the Web in one place",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://uigoodies.com/",
+        "filters": [
+            "Info",
+            "Colors",
+            "Illustrations",
+            "Icons",
+            "Fonts"
+        ]
+    },
+    {
+        "title": "BansalPattern CSS",
+        "description": "CSS only library to fill your empty background with beautiful patterns",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://bansal.io/pattern-css",
+        "filters": [
+            "Css",
+            "Textures",
+            "Node packages"
+        ]
+    },
+    {
+        "title": "useHooks",
+        "description": "A collection of modern, server-safe React hooks from the ui.dev team",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://usehooks.com/",
+        "filters": [
+            "React"
+        ]
+    },
+    {
+        "title": "Million",
+        "description": "Gain big performance wins for ui and data heavy react apps",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://million.dev/",
+        "filters": [
+            "React"
+        ]
+    },
+    {
+        "title": "Css db",
+        "description": "Comprehensive list of CSS features and their positions in the process of becoming implemented web standards",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://cssdb.org/",
+        "filters": [
+            "Info",
+            "Css"
+        ]
+    },
+    {
+        "title": "CompressImage.io",
+        "description": "Compress jpg and png images at light speed with Browser based image compressor",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://compressimage.io/",
+        "filters": [
+            "Optimize image"
+        ]
+    },
+    {
+        "title": "Vercel",
+        "description": "Vercel's frontend cloud gives developers the frameworks, workflows, and infrastructure to build a faster, more personalized web",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://vercel.com/",
+        "filters": [
+            "Front Hosting",
+            "Hosting db",
+            "AI"
+        ]
+    },
+    {
+        "title": "Surge.sh",
+        "description": "Static web publishing for front-end developers",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://surge.sh/",
+        "filters": [
+            "Front Hosting"
+        ]
+    },
+    {
+        "title": "Github pages",
+        "description": "Hosted directly from your GitHub repository. Just edit, push, and your changes are live",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://pages.github.com/",
+        "filters": [
+            "Front Hosting"
+        ]
+    },
+    {
+        "title": "Skeleton react",
+        "description": "Create react content loader",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://skeletonreact.com/",
+        "filters": [
+            "React",
+            "Loaders"
+        ]
+    },
+    {
+        "title": "Magic pattern",
+        "description": "Beautiful pure css background patterns that you can actually use in your projects",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://www.magicpattern.design/tools/css-backgrounds",
+        "filters": [
+            "Css",
+            "Textures"
+        ]
+    },
+    {
+        "title": "The-good-line-height",
+        "description": "The good line-height calculates the exact number so it always fits the baseline grid",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.thegoodlineheight.com/",
+        "filters": [
+            "Css"
+        ]
+    },
+    {
+        "title": "Svg to React",
+        "description": "svg to react converter",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://react-svgr.com/playground/",
+        "filters": [
+            "React",
+            "Svg"
+        ]
+    },
+    {
+        "title": "ECMAScript Proposals",
+        "description": "Next js features",
+        "isRecommended": true,
+        "isPrivileged": true,
+        "url": "https://github.com/tc39/proposals",
+        "filters": [
+            "Info",
+            "Javascript"
+        ]
+    },
+    {
+        "title": "Perplexity ai",
+        "description": "The answer to any question",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.perplexity.ai/",
+        "filters": [
+            "AI",
+            "Info"
+        ]
+    },
+    {
+        "title": "React graph gallery",
+        "description": "Build unique charts for the web",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.react-graph-gallery.com/",
+        "filters": [
+            "React",
+            "Charts"
+        ]
+    },
+    {
+        "title": "sql.js",
+        "description": "A javascript library to run SQLite on the web",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://github.com/sql-js/sql.js/",
+        "filters": [
+            "Javascript",
+            "Sqlite",
+            "Node packages"
+        ]
+    },
+    {
+        "title": "background-removal-js-ai",
+        "description": "Remove backgrounds from images directly in the browser environment with ease and no additional costs or privacy concerns",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://github.com/imgly/background-removal-js",
+        "filters": [
+            "Javascript",
+            "AI",
+            "Image editors",
+            "Node packages",
+            "Wasm"
+        ]
+    },
+    {
+        "title": "BlurDataURL generator",
+        "description": "Convert an image into a much smaller, blurred image to display for loading, titlely for Next.js Image component",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://blurred.dev/",
+        "filters": [
+            "Image editors"
+        ]
     }
 ]

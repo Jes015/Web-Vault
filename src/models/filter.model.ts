@@ -20,6 +20,11 @@ export const filtersData: FilterArray = [
         isSelected: false
     },
     {
+        name: 'AI',
+        color: colors.fuchsia.name,
+        isSelected: false
+    },
+    {
         name: 'Typescript',
         color: colors.cyan.name,
         isSelected: false
@@ -82,6 +87,21 @@ export const filtersData: FilterArray = [
     {
         name: 'Css Frameworks',
         color: colors.fuchsia.name,
+        isSelected: false
+    },
+    {
+        name: 'Testing',
+        color: colors.red.name,
+        isSelected: false
+    },
+    {
+        name: 'Testing E2E',
+        color: colors.red.name,
+        isSelected: false
+    },
+    {
+        name: 'Testing Components',
+        color: colors.red.name,
         isSelected: false
     },
     {
@@ -217,6 +237,106 @@ export const filtersData: FilterArray = [
     {
         name: 'Interactive',
         color: colors.orange.name,
+        isSelected: false
+    },
+    {
+        name: 'Web Responsive',
+        color: colors.fuchsia.name,
+        isSelected: false
+    },
+    {
+        name: 'Best web apps',
+        color: colors.green.name,
+        isSelected: false
+    },
+    {
+        name: 'Image editors',
+        color: colors.green.name,
+        isSelected: false
+    },
+    {
+        name: 'Svg',
+        color: colors.teal.name,
+        isSelected: false
+    },
+    {
+        name: 'Hosting images',
+        color: colors.blue.name,
+        isSelected: false
+    },
+    {
+        name: 'Hosting video',
+        color: colors.blue.name,
+        isSelected: false
+    },
+    {
+        name: 'Node packages',
+        color: colors.green.name,
+        isSelected: false
+    },
+    {
+        name: 'Node',
+        color: colors.green.name,
+        isSelected: false
+    },
+    {
+        name: 'Ip',
+        color: colors.yellow.name,
+        isSelected: false
+    },
+    {
+        name: 'Drawing',
+        color: colors.red.name,
+        isSelected: false
+    },
+    {
+        name: 'Screenshot',
+        color: colors.cyan.name,
+        isSelected: false
+    },
+    {
+        name: 'Charts',
+        color: colors.green.name,
+        isSelected: false
+    },
+    {
+        name: 'API',
+        color: colors.yellow.name,
+        isSelected: false
+    },
+    {
+        name: 'Gradient',
+        color: colors.fuchsia.name,
+        isSelected: false
+    },
+    {
+        name: 'Optimize image',
+        color: colors.green.name,
+        isSelected: false
+    },
+    {
+        name: 'Design',
+        color: colors.fuchsia.name,
+        isSelected: false
+    },
+    {
+        name: 'Http Status',
+        color: colors.yellow.name,
+        isSelected: false
+    },
+    {
+        name: 'Genre images',
+        color: colors.green.name,
+        isSelected: false
+    },
+    {
+        name: 'Presentations',
+        color: colors.pink.name,
+        isSelected: false
+    },
+    {
+        name: 'Architect',
+        color: colors.green.name,
         isSelected: false
     },
 ]
