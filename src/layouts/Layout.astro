@@ -1,6 +1,7 @@
 ---
 import BackToTheTop from "@/components/BackToTheTop.astro"
 import Header from "@/components/Header.astro"
+import IconsIndicator from "@/components/IconsIndicator.astro"
 import "@fontsource/geist-sans/400.css"
 import "@fontsource/geist-sans/500.css"
 import "@fontsource/geist-sans/600.css"
@@ -26,11 +27,16 @@ const { title } = Astro.props;
 		<ViewTransitions />
 	</head>
 	<body id="top" class="grid sm:place-items-center text-sm scroll">
-		<div class="sm:border sm:rounded-md max-w-[40rem] w-full sm:mt-10">
-			<Header />
-			<main class="px-2 p-1 bg relative overflow-x-clip min-h-[50dvh]">
-				<slot />
-			</main>
+		<div class="flex flex-col gap-1 max-w-[40rem] w-full mt-5 sm:mt-10">
+			<IconsIndicator />
+			<div class="border rounded-md w-full">
+				<Header />
+				<main
+					class="px-2 p-1 bg relative overflow-x-clip min-h-[50dvh]"
+				>
+					<slot />
+				</main>
+			</div>
 		</div>
 		<BackToTheTop />
 		<style is:global>
