@@ -1,5 +1,5 @@
+import { DangerousIcon, RecommendedIcon } from "@/components/Icons.tsx"
 import { type BaseComponentProps, type Tool as ToolType } from "@/models"
-import { ExclamationTriangleIcon, StarFilledIcon } from "@radix-ui/react-icons"
 import type { FC } from "react"
 
 interface ToolProps extends BaseComponentProps {
@@ -21,26 +21,10 @@ export const Tool: FC<ToolProps> = ({ data, ...props }) => {
             </header>
             <div className="absolute top-0 right-0 p-1">
                 {
-                    data.isRecommended && (
-                        <div className="bg-yellow-200 rounded-md p-1">
-                            <StarFilledIcon
-                                width={14}
-                                height={14}
-                                className="text-yellow-600"
-                            />
-                        </div>
-                    )
+                    data.isRecommended && <RecommendedIcon />
                 }
                 {
-                    data.isDangerous && (
-                        <div className="bg-red-200 rounded-md p-1">
-                            <ExclamationTriangleIcon
-                                width={14}
-                                height={14}
-                                className="text-red-600"
-                            />
-                        </div>
-                    )
+                    data.isDangerous && <DangerousIcon />
                 }
             </div>
         </a>
