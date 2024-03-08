@@ -1,5 +1,5 @@
 import { useNearViewport, usePagination } from "@/hooks"
-import { ApiFilterParamName, apiRoutes } from "@/models"
+import { ApiFilterParamName } from "@/models"
 import { getToolsService } from "@/services"
 import { useAppStore } from "@/store/zustand/app.zustand"
 import { useEffect, useState } from "react"
@@ -17,21 +17,6 @@ export const useTools = () => {
     })
 
     useEffect(() => {
-        const currentURL = new URL(location.href)
-
-        
-        const isThereFilters = currentURL.searchParams.has(ApiFilterParamName)
-        
-        if (!isThereFilters) return
-        
-        const filtersSelected = (currentURL.searchParams.get(ApiFilterParamName) as string)?.split(',')
-
-        filtersSelected.forEach((filter) => {
-            toggleFilterStatus(filter)
-        })
-    }, [])
-
-    useEffect(() => {
         if (page === 0) return
 
         getToolsService(selectedFiltersText, offset, limit)
@@ -42,8 +27,6 @@ export const useTools = () => {
             .catch(() => {
 
             })
-        console.log({ newRequest: apiRoutes.tools(selectedFiltersText, offset, limit) })
-
     }, [page])
 
     useEffect(() => {
