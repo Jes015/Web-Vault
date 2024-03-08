@@ -15,10 +15,13 @@ export const FiltersPopover: BaseComponentType = () => {
     } = useFiltersPopover()
     const [parentAnimations] = useAutoAnimate()
 
+    const topOfThePopOver = useRef<HTMLDivElement>()
     const inputToSearchFiltersRef = useRef<HTMLInputElement>()
 
     const handleOnClickToToggleExpand = () => {
         toggleIsExpanded()
+        if (topOfThePopOver.current == null) return
+        topOfThePopOver.current.scrollIntoView({ behavior: 'smooth', block: 'end' })
     }
 
     const handleOnClickToAddFilter = (filterName: string) => () => {
@@ -32,7 +35,7 @@ export const FiltersPopover: BaseComponentType = () => {
     }
 
     const handleOnClickToCleanInput = () => {
-        if (inputToSearchFiltersRef.current == null) return
+        if (inputToSearchFiltersRef.current == null || topOfThePopOver.current == null) return
 
         inputToSearchFiltersRef.current.value = ''
         changeSearchFilter(null)
@@ -102,6 +105,7 @@ export const FiltersPopover: BaseComponentType = () => {
                     }}
                     ref={parentAnimations}
                 >
+                    <div ref={topOfThePopOver as LegacyRef<HTMLDivElement>} aria-hidden="true" />
                     {
                         filtersNoSelected.map((filter) => (
                             <button
