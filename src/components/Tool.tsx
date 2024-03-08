@@ -11,13 +11,18 @@ export const Tool: FC<ToolProps> = ({ data, ...props }) => {
         <a
             rel="noopener noreferrer"
             href={data.url}
-            className="border relative rounded-lg px-2 py-3 hover:bg-neutral-100"
+            className="border relative rounded-lg px-2 py-3 hover:bg-neutral-100 group"
             target="_blank"
             {...props}
         >
             <header className="flex flex-col gap-1">
                 <h2 className="text-base font-medium leading-4">{data.title}</h2>
-                <p className="text-zinc-900 text-xs text-pretty">{data.description}</p>
+                <p
+                    className="text-zinc-900 text-xs text-pretty line-clamp-2 group-hover:line-clamp-none"
+                    style={{
+                        wordWrap: 'break-word',
+                    }}
+                >{data.description}</p>
             </header>
             <div className="absolute top-0 right-0 p-1">
                 {
