@@ -5,17 +5,31 @@ import { useAppStore } from "@/store/zustand/app.zustand"
 import { useEffect, useState } from "react"
 
 export const useTools = () => {
-    const [tools, filters, resetTools, setTools, addTools] = useAppStore(state => [state.tools, state.filters, state.resetTools, state.setTools, state.addTools])
+    const [tools, filters, resetTools, setTools, addTools, toggleFilterStatus] = useAppStore(state => [state.tools, state.filters, state.resetTools, state.setTools, state.addTools, state.toggleFilterStatus])
     const selectedFiltersArray = filters.map((filter) => filter.isSelected ? filter.name : '').filter(Boolean)
     const selectedFiltersText = selectedFiltersArray.join(',')
 
     const [loading, setLoading] = useState(false)
 
     const { limit, nextPage, offset, page, resetValues } = usePagination({ defaultIncrementValue: 30 })
-
     const { watchElement } = useNearViewport(() => {
         nextPage()
     })
+
+    useEffect(() => {
+        const currentURL = new URL(location.href)
+
+        
+        const isThereFilters = currentURL.searchParams.has(ApiFilterParamName)
+        
+        if (!isThereFilters) return
+        
+        const filtersSelected = (currentURL.searchParams.get(ApiFilterParamName) as string)?.split(',')
+
+        filtersSelected.forEach((filter) => {
+            toggleFilterStatus(filter)
+        })
+    }, [])
 
     useEffect(() => {
         if (page === 0) return
