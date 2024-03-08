@@ -1,6 +1,7 @@
 import { colors, type BaseComponentType } from "@/models"
 import { useAutoAnimate } from "@formkit/auto-animate/react"
-import { MagnifyingGlassIcon, MoonIcon } from "@radix-ui/react-icons"
+import { Cross2Icon, MagnifyingGlassIcon, MoonIcon } from "@radix-ui/react-icons"
+import { useRef, type LegacyRef } from "react"
 import { useFiltersPopover } from "./hooks"
 
 export const FiltersPopover: BaseComponentType = () => {
@@ -9,10 +10,12 @@ export const FiltersPopover: BaseComponentType = () => {
         addFilter,
         toggleIsExpanded,
         isExpanded,
-        changeSearchFilter
+        changeSearchFilter,
+        searchValue
     } = useFiltersPopover()
     const [parentAnimations] = useAutoAnimate()
 
+    const inputToSearchFiltersRef = useRef<HTMLInputElement>()
 
     const handleOnClickToToggleExpand = () => {
         toggleIsExpanded()
@@ -28,7 +31,14 @@ export const FiltersPopover: BaseComponentType = () => {
         changeSearchFilter(inputValue)
     }
 
-    
+    const handleOnClickToCleanInput = () => {
+        if (inputToSearchFiltersRef.current == null) return
+
+        inputToSearchFiltersRef.current.value = ''
+        changeSearchFilter(null)
+    }
+
+
 
     return (
         <div className="flex flex-col relative">
@@ -44,25 +54,43 @@ export const FiltersPopover: BaseComponentType = () => {
                 type="checkbox"
             />
             <div
-                className="absolute top-[2rem] right-0 bg-white border rounded-lg shadow-md z-50 translate-x-56 peer-checked:translate-x-0 transition-all overflow-hidden"
+                className="absolute w-[13.3125rem] top-[2rem] right-0 bg-white border rounded-lg shadow-md z-50 translate-x-56 peer-checked:translate-x-0 transition-all overflow-hidden"
             >
                 <header className="border-b p-1">
                     <h3 className="font-medium">Filters</h3>
                 </header>
                 <label
-                    className="flex items-center pl-1 gap-[0.1rem] border-b text-xs"
+                    className={
+                        [
+                            "flex items-center pl-1 pr-2 gap-[0.1rem] border-b text-xs w-full",
+                            searchValue == null ? 'pr-0' : 'pr-2'
+                        ].join(' ')
+                    }
                 >
                     <MagnifyingGlassIcon
-                        className="text-zinc-700"
+                        className="text-zinc-700 flex-shrink-0"
                         width={18}
                         height={18}
                     />
                     <input
+                        ref={inputToSearchFiltersRef as LegacyRef<HTMLInputElement>}
                         onChange={handleOnInputSearch}
-                        className="p-2 outline-none"
+                        className="p-2 outline-none w-full flex-grow"
                         type="text"
                         placeholder="Search filters"
                     />
+                    {
+                        searchValue != null && (
+                            <button
+                                className="cursor-pointer flex-shrink-0"
+                                onClick={handleOnClickToCleanInput}
+                            >
+                                <Cross2Icon
+                                    className="text-zinc-700"
+                                />
+                            </button>
+                        )
+                    }
                 </label>
                 <div
                     className="flex flex-wrap items-start p-1 gap-1 overflow-hidden transition-all scroll"
@@ -92,7 +120,7 @@ export const FiltersPopover: BaseComponentType = () => {
                     {
                         filtersNoSelected?.[0] == null && (
                             <div className="flex flex-col justify-center items-center w-full py-2">
-                                <MoonIcon width={22} height={22} className="opacity-50"/>
+                                <MoonIcon width={22} height={22} className="opacity-50" />
                                 <span className="text-xs font-semibold">No filters found</span>
                             </div>
                         )

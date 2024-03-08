@@ -25,6 +25,7 @@ export const useFiltersPopover = () => {
     }
 
     return {
+        searchValue,
         isExpanded,
         filtersNoSelected,
         addFilter,
