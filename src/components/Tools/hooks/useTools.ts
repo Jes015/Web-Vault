@@ -17,6 +17,18 @@ export const useTools = () => {
     })
 
     useEffect(() => {
+        const currentURL = new URL(location.href)
+        
+        const filtersSelected = (currentURL.searchParams.get(ApiFilterParamName) as string)?.split(',')
+        
+        if (filtersSelected?.[0] == null) return
+
+        filtersSelected.forEach((filter) => {
+            toggleFilterStatus(filter)
+        })
+    }, [])
+
+    useEffect(() => {
         if (page === 0) return
 
         getToolsService(selectedFiltersText, offset, limit)
