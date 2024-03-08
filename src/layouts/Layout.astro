@@ -19,11 +19,25 @@ const { title } = Astro.props;
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="description" content="Tool collection for web developers" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+		<meta property="og:title" content={title} />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://web-vault.vercel.app/" />
+		<meta
+			property="og:description"
+			content="Tool collection for web developers"
+		/>
+		<meta property="og:site_name" content={title} />
+		<meta name="twitter:site" content="@Jes015" />
+		<meta name="twitter:title" content={title} />
+		<meta
+			name="twitter:description"
+			content="Tool collection for web developers"
+		/>
 		<ViewTransitions />
 	</head>
 	<body id="top" class="grid sm:place-items-center text-sm scroll">
