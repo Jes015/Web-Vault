@@ -26,9 +26,7 @@ export const Tools = () => {
                     <div
                         className="justify-self-center col-span-3 flex justify-center"
                         ref={watchElement as LegacyRef<HTMLDivElement>}
-                    >
-                        saliendo
-                    </div>
+                    />
                 )
             }
 
