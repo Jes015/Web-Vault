@@ -12,7 +12,6 @@ export const useNearViewport = (callback: () => void) => {
 
             observer = new IntersectionObserver((e) => {
                 if (e[0].isIntersecting) {
-                    console.log('saliendo en pantallaaa')
                     callback()
                 }
             }, { rootMargin: '200px' })
@@ -21,13 +20,12 @@ export const useNearViewport = (callback: () => void) => {
         }, 1000)
 
         return () => {
-            if (observer == null) return
-            
             clearTimeout(timeout)
             observer?.disconnect()
         }
     },
-        [])
+    // This just works because of a render of a setState
+        [watchElement.current])
 
     return { watchElement }
 }
