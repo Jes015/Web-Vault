@@ -12,13 +12,14 @@ export const useTools = () => {
     const [loading, setLoading] = useState(false)
 
     const { limit, nextPage, offset, page, resetValues } = usePagination({ defaultIncrementValue: 30 })
+
     const { watchElement } = useNearViewport(() => {
         nextPage()
     })
 
+    // Set filters in the URL
     useEffect(() => {
         const currentURL = new URL(location.href)
-
 
         const isThereFilters = currentURL.searchParams.has(ApiFilterParamName)
 
@@ -31,6 +32,7 @@ export const useTools = () => {
         })
     }, [])
 
+    // Fetch new tools by InfinityScroll
     useEffect(() => {
         if (page === 0) return
 
@@ -44,6 +46,7 @@ export const useTools = () => {
             })
     }, [page])
 
+    // Fetch tools by Filters
     useEffect(() => {
         resetValues()
 
