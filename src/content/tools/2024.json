@@ -1531,5 +1531,16 @@
             "Drag and drop",
             "Javascript"
         ]
+    },
+    {
+        "title": "Eloquent js 4A",
+        "description": "This is a book about JavaScript, programming, and the wonders of the digital. You can read it online here, or buy your own paperback copy (3rd edition)",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://eloquent-javascript-es.vercel.app/",
+        "filters": [
+            "Learn",
+            "Javascript"
+        ]
     }
 ]
