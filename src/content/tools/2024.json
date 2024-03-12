@@ -1498,5 +1498,27 @@
         "filters": [
             "Image editors"
         ]
+    },
+    {
+        "title": "Tembo.io",
+        "description": "Build any application on Postgres, the everything database",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://tembo.io/",
+        "filters": [
+            "Postgres",
+            "Hosting db"
+        ]
+    },
+    {
+        "title": "Neon.tech",
+        "description": "The fully managed serverless Postgres with a generous free tier",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://neon.tech/",
+        "filters": [
+            "Postgres",
+            "Hosting db"
+        ]
     }
 ]
