@@ -1520,5 +1520,16 @@
             "Postgres",
             "Hosting db"
         ]
+    },
+    {
+        "title": "pragmatic-dad",
+        "description": "Fast drag and drop for any experience on any tech stack",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://github.com/atlassian/pragmatic-drag-and-drop",
+        "filters": [
+            "Drag and drop",
+            "Javascript"
+        ]
     }
 ]
