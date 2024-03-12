@@ -44,12 +44,15 @@ export const Tool: FC<ToolProps> = ({ data, ...props }) => {
                     >
                         <div className="mt-[-5px] self-center h-0 w-0 border-x-8 border-x-transparent border-b-[10px] border-b-zinc-900 inline-block"></div>
                         <div className="mt-[-5px] [background-color:rgb(255,255,255)] backdrop-blur-lg border border-zinc-200 shadow-md rounded-lg">
-                            <header className="border-b px-2 py-[0.1rem] bg-neutral-50">
-                                <span className="text-zinc-600 [font-size:0.6rem] font-semibold">Tool description</span>
+                            <header className="border-b px-2 py-[0.2rem] bg-neutral-50">
+                                <span className="text-zinc-900 text-xs font-semibold">{data.title}</span>
                             </header>
-                            <p className="text-xs font-normal text-pretty p-2 leading-3">
-                                {data.description}
-                            </p>
+                            <div className="px-2 pb-2">
+                                <span className="text-[0.6rem] text-zinc-600 font-medium">Long description</span>
+                                <p className="text-xs font-normal text-pretty leading-3">
+                                    {data.description}
+                                </p>
+                            </div>
                         </div>
                     </div>
                 )
