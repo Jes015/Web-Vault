@@ -40,7 +40,7 @@ export const Tool: FC<ToolProps> = ({ data, ...props }) => {
                 data.description.length > 50 && (
                     <div
                         role="tooltip"
-                        className="hidden mt-[70px] sm:group-hover:flex sm:group-hover:absolute flex-col top-0 left-0 z-50"
+                        className="hidden mt-[70px] sm:group-hover:flex sm:group-hover:absolute flex-col top-0 left-0 z-50 hover:!hidden"
                     >
                         <div className="mt-[-5px] self-center h-0 w-0 border-x-8 border-x-transparent border-b-[10px] border-b-zinc-900 inline-block"></div>
                         <div className="mt-[-5px] [background-color:rgb(255,255,255)] backdrop-blur-lg border border-zinc-200 shadow-md rounded-lg">
