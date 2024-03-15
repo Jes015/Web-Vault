@@ -1542,5 +1542,16 @@
             "Learn",
             "Javascript"
         ]
+    },
+    {
+        "title": "Uvcanvas",
+        "description": "An open source react.js component library for beautifully shaded canvas, brought to you by latent cat",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://uvcanvas.com/",
+        "filters": [
+            "React",
+            "Textures"
+        ]
     }
 ]
