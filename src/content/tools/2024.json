@@ -74,7 +74,9 @@
         "isPrivileged": false,
         "url": "https://tailwindcss-animations.vercel.app/",
         "filters": [
-            "Tailwind"
+            "Tailwind",
+            "Library",
+            "Node packages"
         ]
     },
     {
@@ -104,7 +106,9 @@
         "isPrivileged": false,
         "url": "https://resend.com/",
         "filters": [
-            "Message services"
+            "Message services",
+            "Library",
+            "Node packages"
         ]
     },
     {
@@ -167,7 +171,8 @@
         "filters": [
             "React",
             "Javascript",
-            "Drag and drop"
+            "Drag and drop",
+            "Library"
         ]
     },
     {
@@ -239,7 +244,8 @@
         "isPrivileged": false,
         "url": "https://v-fonts.com/licenses/open-source",
         "filters": [
-            "Fonts"
+            "Fonts",
+            "Info"
         ]
     },
     {
@@ -269,7 +275,9 @@
         "isPrivileged": false,
         "url": "https://github.com/ffmpegwasm/ffmpeg.wasm",
         "filters": [
-            "Wasm"
+            "Wasm",
+            "Library",
+            "Javascript"
         ]
     },
     {
@@ -281,7 +289,8 @@
         "filters": [
             "Cli",
             "Terminal",
-            "Git"
+            "Git",
+            "Node packages"
         ]
     },
     {
@@ -421,7 +430,8 @@
         "isPrivileged": false,
         "url": "https://www.plotteus.dev/",
         "filters": [
-            "Javascript animations"
+            "Javascript animations",
+            "Library"
         ]
     },
     {
@@ -513,7 +523,8 @@
         "isPrivileged": false,
         "url": "https://www.remotion.dev/",
         "filters": [
-            "React"
+            "React",
+            "Library"
         ]
     },
     {
@@ -523,7 +534,8 @@
         "isPrivileged": false,
         "url": "https://github.com/streamich/react-use",
         "filters": [
-            "React"
+            "React",
+            "Library"
         ]
     },
     {
@@ -564,7 +576,8 @@
         "isPrivileged": false,
         "url": "https://www.speakpipe.com/",
         "filters": [
-            "Interactive"
+            "Interactive",
+            "Best web apps"
         ]
     },
     {
@@ -576,7 +589,8 @@
         "filters": [
             "Testing",
             "Testing E2E",
-            "Testing Components"
+            "Testing Components",
+            "Library"
         ]
     },
     {
@@ -599,7 +613,8 @@
             "Javascript",
             "Javascript animations",
             "Css animations",
-            "Css"
+            "Css",
+            "Library"
         ]
     },
     {
@@ -704,7 +719,8 @@
         "isPrivileged": false,
         "url": "https://www.npmjs.com/package/slugify",
         "filters": [
-            "Node packages"
+            "Node packages",
+            "Library"
         ]
     },
     {
@@ -775,7 +791,8 @@
         "isPrivileged": false,
         "url": "https://gsap.com/",
         "filters": [
-            "Javascript animations"
+            "Javascript animations",
+            "Library"
         ]
     },
     {
@@ -795,7 +812,8 @@
         "isPrivileged": false,
         "url": "https://apexcharts.com/",
         "filters": [
-            "Charts"
+            "Charts",
+            "Library"
         ]
     },
     {
@@ -805,7 +823,8 @@
         "isPrivileged": true,
         "url": "https://echarts.apache.org/en/index.html",
         "filters": [
-            "Charts"
+            "Charts",
+            "Library"
         ]
     },
     {
@@ -826,7 +845,8 @@
         "isPrivileged": false,
         "url": "https://antonioru.github.io/beautiful-react-hooks/",
         "filters": [
-            "React"
+            "React",
+            "Library"
         ]
     },
     {
@@ -869,7 +889,8 @@
         "url": "https://fontawesome.com/",
         "filters": [
             "Fonts",
-            "Icons"
+            "Icons",
+            "Library"
         ]
     },
     {
@@ -1064,7 +1085,8 @@
         "url": "https://fontsource.org/",
         "filters": [
             "Fonts",
-            "Node packages"
+            "Node packages",
+            "Library"
         ]
     },
     {
@@ -1129,7 +1151,8 @@
         "url": "https://toggles.dev/",
         "filters": [
             "React",
-            "Css"
+            "Css",
+            "Library"
         ]
     },
     {
@@ -1141,7 +1164,8 @@
         "filters": [
             "Info",
             "Node packages",
-            "Node"
+            "Node",
+            "Library"
         ]
     },
     {
@@ -1217,7 +1241,8 @@
         "isPrivileged": false,
         "url": "https://nextapps-de.github.io/winbox/",
         "filters": [
-            "Javascript"
+            "Javascript",
+            "Library"
         ]
     },
     {
@@ -1311,7 +1336,8 @@
         "filters": [
             "Css",
             "Textures",
-            "Node packages"
+            "Node packages",
+            "Library"
         ]
     },
     {
@@ -1331,7 +1357,8 @@
         "isPrivileged": false,
         "url": "https://million.dev/",
         "filters": [
-            "React"
+            "React",
+            "Library"
         ]
     },
     {
@@ -1395,7 +1422,8 @@
         "url": "https://skeletonreact.com/",
         "filters": [
             "React",
-            "Loaders"
+            "Loaders",
+            "Library"
         ]
     },
     {
@@ -1460,7 +1488,8 @@
         "url": "https://www.react-graph-gallery.com/",
         "filters": [
             "React",
-            "Charts"
+            "Charts",
+            "Library"
         ]
     },
     {
@@ -1472,7 +1501,8 @@
         "filters": [
             "Javascript",
             "Sqlite",
-            "Node packages"
+            "Node packages",
+            "Library"
         ]
     },
     {
@@ -1529,7 +1559,8 @@
         "url": "https://github.com/atlassian/pragmatic-drag-and-drop",
         "filters": [
             "Drag and drop",
-            "Javascript"
+            "Javascript",
+            "Library"
         ]
     },
     {
@@ -1551,7 +1582,22 @@
         "url": "https://uvcanvas.com/",
         "filters": [
             "React",
-            "Textures"
+            "Textures",
+            "Library"
+        ]
+    },
+    {
+        "title": "Tiptap",
+        "description": "The headless rich text editor. Library like notion",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://tiptap.dev/product/editor",
+        "filters": [
+            "Best web apps",
+            "Text editors",
+            "Javascript",
+            "Library",
+            "Best libraries"
         ]
     }
 ]

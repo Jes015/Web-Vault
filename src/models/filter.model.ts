@@ -339,4 +339,19 @@ export const filtersData: FilterArray = [
         color: colors.green.name,
         isSelected: false
     },
+    {
+        name: 'Text editors',
+        color: colors.blue.name,
+        isSelected: false
+    },
+    {
+        name: 'Library',
+        color: colors.cyan.name,
+        isSelected: false
+    },
+    {
+        name: 'Best libraries',
+        color: colors.yellow.name,
+        isSelected: false
+    },
 ]
