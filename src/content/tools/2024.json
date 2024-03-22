@@ -1589,9 +1589,23 @@
     {
         "title": "Tiptap",
         "description": "The headless rich text editor. Library like notion",
-        "isRecommended": true,
+        "isRecommended": false,
         "isPrivileged": false,
         "url": "https://tiptap.dev/product/editor",
+        "filters": [
+            "Best web apps",
+            "Text editors",
+            "Javascript",
+            "Library",
+            "Best libraries"
+        ]
+    },
+    {
+        "title": "BlockNoteJs",
+        "description": "The open source Block-Based rich text editor. Library like notion",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://www.blocknotejs.org/",
         "filters": [
             "Best web apps",
             "Text editors",
