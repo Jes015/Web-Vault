@@ -1613,5 +1613,19 @@
             "Library",
             "Best libraries"
         ]
+    },
+    {
+        "title": "Charts.css",
+        "description": "Modern CSS framework. It uses CSS utility classes to style HTML elements as charts",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://chartscss.org/",
+        "filters": [
+            "Best libraries",
+            "Charts",
+            "Css Frameworks",
+            "Css",
+            "Library"
+        ]
     }
 ]
