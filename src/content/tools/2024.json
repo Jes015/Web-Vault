@@ -19,6 +19,9 @@
         "filters": [
             "Front Hosting",
             "Back Hosting",
+            "Hosting db",
+            "Hosting images",
+            "Hosting video",
             "Info"
         ]
     },
@@ -1626,6 +1629,18 @@
             "Css Frameworks",
             "Css",
             "Library"
+        ]
+    },
+    {
+        "title": "Github 95's",
+        "description": "A windows 95 clone focused on github",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://github95.vercel.app/",
+        "filters": [
+            "Best web apps",
+            "Interactive",
+            "Operating systems"
         ]
     }
 ]

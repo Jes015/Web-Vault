@@ -354,4 +354,9 @@ export const filtersData: FilterArray = [
         color: colors.yellow.name,
         isSelected: false
     },
+    {
+        name: 'Operating systems',
+        color: colors.teal.name,
+        isSelected: false
+    },
 ]
