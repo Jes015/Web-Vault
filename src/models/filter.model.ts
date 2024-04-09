@@ -359,4 +359,14 @@ export const filtersData: FilterArray = [
         color: colors.teal.name,
         isSelected: false
     },
+    {
+        name: 'Calendar',
+        color: colors.fuchsia.name,
+        isSelected: false
+    },
+    {
+        name: 'Analytics',
+        color: colors.pink.name,
+        isSelected: false
+    },
 ]

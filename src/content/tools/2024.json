@@ -1642,5 +1642,27 @@
             "Interactive",
             "Operating systems"
         ]
+    },
+    {
+        "title": "Cally",
+        "description": "Small, feature-rich calendar components",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://wicky.nillia.ms/cally/",
+        "filters": [
+            "Calendar",
+            "Library"
+        ]
+    },
+    {
+        "title": "Counterscale",
+        "description": "Scalable web analytics you run yourself on Cloudflare",
+        "isRecommended": false,
+        "isPrivileged": false,
+        "url": "https://github.com/benvinegar/counterscale",
+        "filters": [
+            "Analytics",
+            "Best web apps"
+        ]
     }
 ]
