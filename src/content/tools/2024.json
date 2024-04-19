@@ -853,17 +853,6 @@
         ]
     },
     {
-        "title": "Fl0",
-        "description": "Deploy backend applications and databases in minutes",
-        "isRecommended": false,
-        "isPrivileged": false,
-        "url": "https://www.fl0.com/",
-        "filters": [
-            "Hosting db",
-            "Back Hosting"
-        ]
-    },
-    {
         "title": "Can i use",
         "description": "An essential tool for web developers who seek to ensure compatibility and accessibility of their websites and applications across different browsers and devices used by their users",
         "isRecommended": true,
