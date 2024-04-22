@@ -1653,5 +1653,16 @@
             "Analytics",
             "Best web apps"
         ]
+    },
+    {
+        "title": "Google dorks",
+        "description": "Hacking google search",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://taksec.github.io/google-dorks-bug-bounty/",
+        "filters": [
+            "Best web apps",
+            "Hacking"
+        ]
     }
 ]

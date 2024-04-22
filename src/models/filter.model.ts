@@ -369,4 +369,9 @@ export const filtersData: FilterArray = [
         color: colors.pink.name,
         isSelected: false
     },
+    {
+        name: 'Hacking',
+        color: colors.red.name,
+        isSelected: false,
+    }
 ]
