@@ -1664,5 +1664,17 @@
             "Best web apps",
             "Hacking"
         ]
+    },
+    {
+        "title": "React google maps",
+        "description": "React components and hooks for the Google Maps JavaScript API",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://visgl.github.io/react-google-maps/",
+        "filters": [
+            "React",
+            "Best libraries",
+            "Maps"
+        ]
     }
 ]

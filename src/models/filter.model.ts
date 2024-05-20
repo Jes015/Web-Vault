@@ -373,5 +373,10 @@ export const filtersData: FilterArray = [
         name: 'Hacking',
         color: colors.red.name,
         isSelected: false,
+    },
+    {
+        name: 'Maps',
+        color: colors.blue.name,
+        isSelected: false,
     }
 ]
