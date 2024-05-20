@@ -1676,5 +1676,20 @@
             "Best libraries",
             "Maps"
         ]
+    },
+    {
+        "title": "Web Platform Status",
+        "description": "List of compatibility of web features between browsers",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://webstatus.dev/",
+        "filters": [
+            "Info",
+            "Javascript",
+            "Javascript animations",
+            "Css animations",
+            "Css",
+            "Best web apps"
+        ]
     }
 ]
