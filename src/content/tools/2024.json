@@ -1691,5 +1691,25 @@
             "Css",
             "Best web apps"
         ]
+    },
+    {
+        "title": "Zelda on a boat",
+        "description": "Web browser game",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://wind-waker-js.vercel.app/",
+        "filters": [
+            "Game"
+        ]
+    },
+    {
+        "title": "Mario kart",
+        "description": "Web browser game",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://mario-kart-3-js.vercel.app/",
+        "filters": [
+            "Game"
+        ]
     }
 ]
