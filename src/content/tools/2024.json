@@ -1711,5 +1711,16 @@
         "filters": [
             "Game"
         ]
+    },
+    {
+        "title": "Sooner",
+        "description": "Beautiful react toast",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://sonner.emilkowal.ski/",
+        "filters": [
+            "Toast",
+            "React"
+        ]
     }
 ]
