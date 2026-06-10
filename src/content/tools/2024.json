@@ -1722,5 +1722,28 @@
             "Toast",
             "React"
         ]
+    },
+    {
+        "title": "Skills.sh",
+        "description": "The Open Agent Skills Ecosystem",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://www.skills.sh/",
+        "filters": [
+            "Skill",
+            "AI"
+        ]
+    },
+    {
+        "title": "ui-skills",
+        "description": "Skills for Design Engineers",
+        "isRecommended": true,
+        "isPrivileged": false,
+        "url": "https://www.ui-skills.com/",
+        "filters": [
+            "Skill",
+            "AI",
+            "Design"
+        ]
     }
 ]
