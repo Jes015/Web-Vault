@@ -388,5 +388,10 @@ export const filtersData: FilterArray = [
         name: 'Toast',
         color: colors.orange.name,
         isSelected: false,
+    },
+    {
+        name: 'Skill',
+        color: colors.orange.name,
+        isSelected: false,
     }
 ]
